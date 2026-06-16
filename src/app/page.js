@@ -227,16 +227,12 @@ export default function Home() {
               borderRadius: "50px",
               fontSize: "1.1rem",
               fontWeight: 600,
-              cursor: "pointer",
               fontFamily: '"Google Sans", sans-serif',
-              transition: "transform 0.2s ease, opacity 0.2s ease"
+              opacity: 0.7,
+              cursor: "default"
             }}
-            onMouseOver={(e) => e.target.style.transform = "scale(1.05)"}
-            onMouseOut={(e) => e.target.style.transform = "scale(1)"}
-            onMouseDown={(e) => e.target.style.transform = "scale(0.95)"}
-            onMouseUp={(e) => e.target.style.transform = "scale(1.05)"}
           >
-            Join the Waitlist
+            Coming Soon
           </button>
         </div>
       </div>
@@ -358,16 +354,22 @@ export default function Home() {
               <p style={{ color: "var(--footer-card-muted)", fontSize: "1.1rem", maxWidth: "600px", margin: "0 auto 3rem auto", lineHeight: "1.6" }}>
                 Never experience a blank moment again. Wing delivers context-aware, real-time cues straight to your smart glasses.
               </p>
-              <MagneticButton
+              <button
                 style={{
                   background: "var(--btn-bg)",
                   color: "var(--btn-text)",
+                  border: "none",
+                  padding: "16px 36px",
+                  borderRadius: "50px",
                   fontSize: "1.05rem",
-                  padding: "16px 36px"
+                  fontWeight: 600,
+                  fontFamily: '"Google Sans", sans-serif',
+                  opacity: 0.7,
+                  cursor: "default"
                 }}
               >
-                Join the Waitlist
-              </MagneticButton>
+                Coming Soon
+              </button>
             </div>
           </div>
 
