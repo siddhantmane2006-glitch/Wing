@@ -236,7 +236,7 @@ export default function Home() {
             onMouseDown={(e) => e.target.style.transform = "scale(0.95)"}
             onMouseUp={(e) => e.target.style.transform = "scale(1.05)"}
           >
-            Try now for free
+            Join the Waitlist
           </button>
         </div>
       </div>
@@ -366,7 +366,7 @@ export default function Home() {
                   padding: "16px 36px"
                 }}
               >
-                Get Started for Free
+                Join the Waitlist
               </MagneticButton>
             </div>
           </div>
